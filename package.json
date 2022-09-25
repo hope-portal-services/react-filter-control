@@ -1,16 +1,49 @@
 {
-  "name": "react-filter-control",
-  "version": "2.1.0",
-  "main": "dist/react-filter-control.min.js",
+  "_from": "react-filter-control",
+  "_id": "react-filter-control@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-kIXMIlyAH60NWMz+XDGbCPlbEmLZodvo/NugP+OCAR8miKYhVpKTj16kSgYF3AI87TFov7dG7uUzdW9mKeTGEg==",
+  "_location": "/react-filter-control",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-filter-control",
+    "name": "react-filter-control",
+    "escapedName": "react-filter-control",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-filter-control/-/react-filter-control-2.1.0.tgz",
+  "_shasum": "b90c8d4a9d9bf44a7c830e28d85726c184173679",
+  "_spec": "react-filter-control",
+  "_where": "/Users/zacharypucci/Desktop/HopePortalServices/frontend/support",
   "author": {
     "name": "Alexander Komarov",
     "email": "alexander.s.komarov@gmail.com"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/komarovalexander/react-filter-control"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "bugs": {
+    "url": "https://github.com/komarovalexander/react-filter-control/issues"
   },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.6.0"
+  },
+  "deprecated": false,
+  "description": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/komarovalexander/react-filter-control/blob/master/LICENSE) [![Build Status](https://travis-ci.com/komarovalexander/react-filter-control.svg?branch=master)](https://travis-ci.com/komarovalexander/react-filter-control)\r [![Coverage Status](https://coveralls.io/repos/github/komarovalexander/react-filter-control/badge.svg?branch=master)](https://coveralls.io/github/komarovalexander/react-filter-control?branch=master)\r # React Filter Control\r The React component for building the composite filter criteria",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
@@ -46,26 +79,23 @@
     "rollup-plugin-strip-prop-types": "^1.0.2",
     "rollup-plugin-uglify": "^6.0.3"
   },
+  "homepage": "https://github.com/komarovalexander/react-filter-control#readme",
+  "license": "MIT",
+  "main": "dist/react-filter-control.min.js",
+  "name": "react-filter-control",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komarovalexander/react-filter-control.git"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "npm install && rollup -c -o dist/react-filter-control.min.js",
-    "lint": "eslint src/",
-    "lint-fix": "eslint src/ --fix",
-    "test": "jest",
+    "build": "rollup -c -o dist/react-filter-control.min.js",
     "coverage": "react-scripts test --env=jsdom --coverage",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "eject": "react-scripts eject",
-    "postinstall": "npm run build"
+    "lint": "eslint src/",
+    "lint-fix": "eslint src/ --fix",
+    "start": "react-scripts start",
+    "test": "jest"
   },
-  "dependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.6.0"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "version": "2.1.0"
 }
