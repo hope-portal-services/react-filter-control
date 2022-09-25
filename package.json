@@ -56,7 +56,7 @@
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "eject": "react-scripts eject",
     "prepare": "npm run build",
-    "postinstall": "npm run build"
+    "postinstall": "npm install npm run build"
   },
   "dependencies": {
     "prop-types": "^15.6.2",
