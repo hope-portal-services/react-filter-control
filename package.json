@@ -55,7 +55,7 @@
     "coverage": "react-scripts test --env=jsdom --coverage",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "eject": "react-scripts eject",
-    "postinstall": "npm install && mkdir /dist && npm run build"
+    "postinstall": "mkdir dist && npm run build"
   },
   "dependencies": {
     "prop-types": "^15.6.2",
