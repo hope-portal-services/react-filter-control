@@ -48,14 +48,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rollup -c -o dist/react-filter-control.min.js",
+    "build": "npm install && rollup -c -o dist/react-filter-control.min.js",
     "lint": "eslint src/",
     "lint-fix": "eslint src/ --fix",
     "test": "jest",
     "coverage": "react-scripts test --env=jsdom --coverage",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "eject": "react-scripts eject",
-    "postinstall": "mkdir dist && npm install && npm run build"
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "prop-types": "^15.6.2",
